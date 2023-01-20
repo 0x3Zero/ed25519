@@ -1,0 +1,10 @@
+module Ed25519 declares *
+
+data Ed25519KeyPair:
+  pk: string
+  sk: string
+
+service Ed25519("Ed25519"):
+  generate_keypair() -> Ed25519KeyPair
+  sign(message: string, private_key: string) -> string
+  verify(public_key: string, signature: string, message: string) -> bool

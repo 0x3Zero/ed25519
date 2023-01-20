@@ -1,0 +1,12 @@
+{
+  "fdb": {
+    "modules": [
+      {
+        "name": "ed25519",
+        "path": "artifacts/ed25519.wasm",
+        "logger_enabled": true,
+        "mem_page_count": 100
+      }
+    ]
+  }
+}
