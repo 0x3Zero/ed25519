@@ -1,0 +1,6 @@
+{
+  "name": "ed25519",
+  "dependencies": [
+    "name:ed25519"
+  ]
+}
